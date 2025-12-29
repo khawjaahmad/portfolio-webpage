@@ -89,7 +89,7 @@ export default function Home() {
             className="relative"
           >
             <h1 className="font-mono text-2xl md:text-4xl leading-relaxed md:leading-relaxed text-white/90 max-w-2xl">
-              I'm Ahmad, I code, mostly<span className="text-white font-bold border-b-2 border-red-500">automation</span> but sometimes other things.
+              I'm Ahmad, I code, mostly <span className="text-white font-bold border-b-2 border-red-500">automation</span> but sometimes other things.
             </h1>
             
             <div className="mt-12 flex gap-12 font-mono text-sm">
