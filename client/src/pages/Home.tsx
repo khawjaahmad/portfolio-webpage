@@ -59,7 +59,7 @@ export default function Home() {
       {/* Sidebar Text */}
       <div className="fixed left-8 top-1/2 -translate-y-1/2 hidden md:flex flex-col items-center gap-8 z-30 mix-blend-difference">
         <div className="vertical-text font-display font-bold text-xl tracking-widest uppercase text-white/80 rotate-180">
-          Dan Bowman
+          Ahmad Waqar
         </div>
         <div className="w-0.5 h-24 bg-white/20"></div>
         <div className="vertical-text font-mono text-xs tracking-widest text-white/40 rotate-180">
@@ -89,7 +89,7 @@ export default function Home() {
             className="relative"
           >
             <h1 className="font-mono text-2xl md:text-4xl leading-relaxed md:leading-relaxed text-white/90 max-w-2xl">
-              I'm Dan, I take photos, mostly of the <span className="text-white font-bold border-b-2 border-red-500">sky</span> but sometimes other things.
+              I'm Ahmad, I code, mostly<span className="text-white font-bold border-b-2 border-red-500">automation</span> but sometimes other things.
             </h1>
             
             <div className="mt-12 flex gap-12 font-mono text-sm">
@@ -112,7 +112,7 @@ export default function Home() {
         {/* Right Section - Image */}
         <div className="w-full md:w-1/2 h-screen relative overflow-hidden bg-black">
           <motion.div 
-            className="absolute inset-0 z-10 bg-gradient-to-r from-background via-transparent to-transparent w-1/2"
+            className="absolute inset-0 z-10 bg-linear-to-r from-background via-transparent to-transparent w-1/2"
           ></motion.div>
           
           <motion.img
@@ -134,7 +134,7 @@ export default function Home() {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          <div className="w-[1px] h-12 bg-gradient-to-b from-transparent via-white/50 to-transparent"></div>
+          <div className="w-px h-12 bg-linear-to-b from-transparent via-white/50 to-transparent"></div>
           <Mouse size={20} />
         </motion.div>
       </main>
